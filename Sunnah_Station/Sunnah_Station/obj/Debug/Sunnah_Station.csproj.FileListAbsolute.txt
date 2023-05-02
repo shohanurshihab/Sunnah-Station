@@ -72,7 +72,15 @@ D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\obj\Debug\Sunnah_Statio
 D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\obj\Debug\Sunnah_Station.dll
 D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\obj\Debug\Sunnah_Station.pdb
 D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\DAL.dll
-D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\AutoMapper.dll
 D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\DAL.pdb
 D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\DAL.dll.config
-D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\AutoMapper.xml
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\BCrypt.Net-Next.dll
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Buffers.dll
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Memory.dll
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Numerics.Vectors.dll
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\BCrypt.Net-Next.xml
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Buffers.xml
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Memory.xml
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Numerics.Vectors.xml
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Runtime.CompilerServices.Unsafe.xml

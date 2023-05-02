@@ -31,3 +31,4 @@ D:\Projects\Sunnah-Station\Sunnah_Station\DAL\bin\Debug\EntityFramework.SqlServe
 D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.InitialMigration.resources
 D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.ModifyUser.resources

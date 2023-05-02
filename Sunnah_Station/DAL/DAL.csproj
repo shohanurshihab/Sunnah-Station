@@ -57,6 +57,10 @@
     <Compile Include="Migrations\202305021748241_InitialMigration.designer.cs">
       <DependentUpon>202305021748241_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305022028423_ModifyUser.cs" />
+    <Compile Include="Migrations\202305022028423_ModifyUser.designer.cs">
+      <DependentUpon>202305022028423_ModifyUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Order.cs" />
@@ -74,6 +78,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202305021748241_InitialMigration.resx">
       <DependentUpon>202305021748241_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305022028423_ModifyUser.resx">
+      <DependentUpon>202305022028423_ModifyUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

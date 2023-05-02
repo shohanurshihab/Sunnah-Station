@@ -3,12 +3,13 @@ using DAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class UserRepo : Repo, IRepo<User, string, User>
+    internal class UserRepo : Repo, IRepo<User, int, User>
     {
         public User Create(User obj)
         {
@@ -24,14 +25,21 @@ namespace DAL.Repos
             return db.Users.ToList();
         }
 
-        public User Read(string id)
+        public User Read(int id)
         {
             return db.Users.Find(id);
         }
 
+        public User GetByEmail(string email)
+        {
+            var userExists = (from user in db.Users where user.Email.Equals(email) select user).SingleOrDefault();
+
+            return userExists;
+        }
+
         public User Update(User obj)
         {
-            var ex = Read(obj.Email);
+            var ex = Read(obj.Id);
 
             db.Entry(ex).CurrentValues.SetValues(obj);
 
@@ -40,7 +48,7 @@ namespace DAL.Repos
             return null;
         }
 
-        public bool Delete(string id)
+        public bool Delete(int id)
         {
             var ex = Read(id);
 

@@ -17,5 +17,7 @@ namespace DAL.Interfaces
         Return Update(Type obj);
 
         bool Delete(Id id);
+
+        Return GetByEmail(string email);
     }
 }

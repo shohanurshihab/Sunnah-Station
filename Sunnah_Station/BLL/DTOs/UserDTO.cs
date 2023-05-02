@@ -7,6 +7,14 @@ using System.Threading.Tasks;
 
 namespace BLL.DTOs
 {
+    public enum Type
+    {
+        Admin,
+        Employee,
+        Manager,
+        Customer
+    }
+
     public class UserDTO
     {
         public int Id { get; set; }
@@ -21,7 +29,7 @@ namespace BLL.DTOs
 
         public string Phone { get; set; }
 
-        public DateTime Dob { get; set; }
+        public DateTime? Dob { get; set; } = null;
 
         [Required]
         public string Password { get; set; }
