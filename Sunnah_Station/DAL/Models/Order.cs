@@ -13,25 +13,18 @@ namespace DAL.Models
         [Key]
         public int Id { get; set; }
 
-      
-        public int? Cus_Id { get; set; }
+        public int? CustomerId { get; set; }
 
-        [ForeignKey("Cus_Id")]
-        public Customer Customer { get; set; }
-
-       
-        public int? Pid { get; set; }
-
-        [ForeignKey("Pid")]
-        public Product Product { get; set; }
+        public int? ProductId { get; set; }
 
         [Required]
         [StringLength(20)]
         public string Status { get; set; }
 
-        
-        public string Message { get; set; }
+        [ForeignKey("CustomerId")]
+        public User Customer { get; set; }
 
-        public ICollection<OrderedProduct> OrderedProducts { get; set; }
+        [ForeignKey("ProductId")]
+        public Product Product { get; set; }
     }
 }

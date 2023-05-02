@@ -51,66 +51,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Migrations\202305011155531_initdb.cs" />
-    <Compile Include="Migrations\202305011155531_initdb.designer.cs">
-      <DependentUpon>202305011155531_initdb.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305011222432_initdb2.cs" />
-    <Compile Include="Migrations\202305011222432_initdb2.designer.cs">
-      <DependentUpon>202305011222432_initdb2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305011236082_initdb31.cs" />
-    <Compile Include="Migrations\202305011236082_initdb31.designer.cs">
-      <DependentUpon>202305011236082_initdb31.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305011240096_initdb4.cs" />
-    <Compile Include="Migrations\202305011240096_initdb4.designer.cs">
-      <DependentUpon>202305011240096_initdb4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305011244412_initdb5.cs" />
-    <Compile Include="Migrations\202305011244412_initdb5.designer.cs">
-      <DependentUpon>202305011244412_initdb5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305011250398_initdb6.cs" />
-    <Compile Include="Migrations\202305011250398_initdb6.designer.cs">
-      <DependentUpon>202305011250398_initdb6.cs</DependentUpon>
+    <Compile Include="Migrations\202305021748241_InitialMigration.cs" />
+    <Compile Include="Migrations\202305021748241_InitialMigration.designer.cs">
+      <DependentUpon>202305021748241_InitialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\Customer.cs" />
-    <Compile Include="Models\Employee.cs" />
-    <Compile Include="Models\Feedback.cs" />
-    <Compile Include="Models\Manager.cs" />
     <Compile Include="Models\Order.cs" />
-    <Compile Include="Models\OrderedProduct.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SunnahContext.cs" />
+    <Compile Include="DataContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202305011155531_initdb.resx">
-      <DependentUpon>202305011155531_initdb.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305011222432_initdb2.resx">
-      <DependentUpon>202305011222432_initdb2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305011236082_initdb31.resx">
-      <DependentUpon>202305011236082_initdb31.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305011240096_initdb4.resx">
-      <DependentUpon>202305011240096_initdb4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305011244412_initdb5.resx">
-      <DependentUpon>202305011244412_initdb5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305011250398_initdb6.resx">
-      <DependentUpon>202305011250398_initdb6.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202305021748241_InitialMigration.resx">
+      <DependentUpon>202305021748241_InitialMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

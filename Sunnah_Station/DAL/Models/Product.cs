@@ -14,7 +14,6 @@ namespace DAL.Models
         public int Id { get; set; }
 
         [Required]
-            
         public string Name { get; set; }
 
         [Required]
@@ -22,18 +21,13 @@ namespace DAL.Models
 
         [Required]
         public int Quantity { get; set; }
-
         
-        public int? Cid { get; set; }
+        public int? CategoryId { get; set; }
 
-        [ForeignKey("Cid")]
+        public string Image { get; set; }
+
+        [ForeignKey("CategoryId")]
         public Category Category { get; set; }
-
-        public byte[] Pic { get; set; }
-
-        public ICollection<Feedback> Feedbacks { get; set; }
-
-        public ICollection<OrderedProduct> OrderedProducts { get; set; }
 
         public ICollection<Order> Orders { get; set; }
     }
