@@ -19,5 +19,9 @@ namespace DAL
         {
             return new OrderRepo();
         }
+        public static IRepo<Category,int,Category> CategoryData()
+        {
+            return new CategoryRepo();
+        }
     }
 }
