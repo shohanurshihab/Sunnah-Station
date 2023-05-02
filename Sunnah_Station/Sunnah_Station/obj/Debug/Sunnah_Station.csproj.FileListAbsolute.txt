@@ -71,3 +71,8 @@ D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\obj\Debug\Sunnah_Statio
 D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\obj\Debug\Sunnah_Station.csproj.CopyComplete
 D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\obj\Debug\Sunnah_Station.dll
 D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\obj\Debug\Sunnah_Station.pdb
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\DAL.dll
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\AutoMapper.dll
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\DAL.pdb
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\DAL.dll.config
+D:\Projects\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\AutoMapper.xml

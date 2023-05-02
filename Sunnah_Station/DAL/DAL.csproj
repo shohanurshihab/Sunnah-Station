@@ -51,6 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccessFactory.cs" />
+    <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202305021748241_InitialMigration.cs" />
     <Compile Include="Migrations\202305021748241_InitialMigration.designer.cs">
       <DependentUpon>202305021748241_InitialMigration.cs</DependentUpon>
@@ -62,6 +64,8 @@
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataContext.cs" />
+    <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
