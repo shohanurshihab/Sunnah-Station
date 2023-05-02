@@ -34,18 +34,30 @@ namespace BLL.Services
             return mapped;
 
         }
-        /*public static OrderDTO GetwithComments(int id)
+        public static ProductDTO CreateProduct(ProductDTO productDTO)
         {
-            var data = DataAccessFactory.ProductData().Read(id);
+            var mapper = new Mapper(new MapperConfiguration(cfg => cfg.CreateMap<ProductDTO, Product>()));
+            var product = mapper.Map<Product>(productDTO);
+
+            var createdProduct = DataAccessFactory.ProductData().Create(product);
+
+            mapper = new Mapper(new MapperConfiguration(cfg => cfg.CreateMap<Product, ProductDTO>()));
+            var createdProductDTO = mapper.Map<ProductDTO>(createdProduct);
+
+            return createdProductDTO;
+        }
+
+        public static bool UpdateProduct(ProductDTO dto)
+        {
             var cfg = new MapperConfiguration(c => {
-                c.CreateMap<Product, ProductCommentDTO>();
-                c.CreateMap<Comment, CommentDTO>();
+                c.CreateMap<ProductDTO, Product>();
             });
             var mapper = new Mapper(cfg);
-            var mapped = mapper.Map<ProductCommentDTO>(data);
-            return mapped;
+            var data = mapper.Map<Product>(dto);
+            var res = DataAccessFactory.ProductData().Update(data);
+            return res != null;
+        }
 
-        }*/
         public static bool DeleteProduct(int id)
         {
             var res = DataAccessFactory.ProductData().Delete(id);
