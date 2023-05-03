@@ -23,5 +23,10 @@ namespace DAL
         {
             return new CategoryRepo();
         }
+
+        public static IUser<User, int, User> UserData()
+        {
+            return new UserRepo();
+        }
     }
 }

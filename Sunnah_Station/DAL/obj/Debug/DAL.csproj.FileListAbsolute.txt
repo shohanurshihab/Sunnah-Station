@@ -46,3 +46,4 @@ E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.csproj.CopyComplete
 E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.dll
 E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.pdb
 E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.order.resources
+E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.ModifiedUser.resources

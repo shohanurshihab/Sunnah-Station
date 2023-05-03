@@ -149,3 +149,13 @@ E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\obj\Debug\Sunnah_Station.cs
 E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\obj\Debug\Sunnah_Station.csproj.CopyComplete
 E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\obj\Debug\Sunnah_Station.dll
 E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\obj\Debug\Sunnah_Station.pdb
+E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\BCrypt.Net-Next.dll
+E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Buffers.dll
+E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Memory.dll
+E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Numerics.Vectors.dll
+E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\BCrypt.Net-Next.xml
+E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Buffers.xml
+E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Memory.xml
+E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Numerics.Vectors.xml
+E:\ADNT\Sunnah-Station\Sunnah_Station\Sunnah_Station\bin\System.Runtime.CompilerServices.Unsafe.xml
