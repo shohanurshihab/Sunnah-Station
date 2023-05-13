@@ -21,14 +21,19 @@ namespace DAL.Models
 
         [Required]
         public int Quantity { get; set; }
-        
+       
+        [ForeignKey("Category")]  
         public int? CategoryId { get; set; }
 
         public string Image { get; set; }
 
-        [ForeignKey("CategoryId")]
+     
         public Category Category { get; set; }
 
-        public ICollection<Order> Orders { get; set; }
+        public virtual ICollection<Order> Orders { get; set;}
+
+        public Product() { 
+        Orders = new List<Order>();
+        }
     }
 }

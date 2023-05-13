@@ -13,24 +13,21 @@ namespace DAL.Models
     {
         [Key]
         public int Id { get; set; }
-
+        
+        [ForeignKey("Customer")]
         public int? CustomerId { get; set; }
 
+        [ForeignKey("Product")]
         public int? ProductId { get; set; }
 
         [Required]
         [StringLength(20)]
         public string Status { get; set; }
 
-        [ForeignKey("CustomerId")]
+        
         public User Customer { get; set; }
 
-        [ForeignKey("ProductId")]
         public Product Product { get; set; }
-        public virtual ICollection<Product> Products { get; set; }
-        public Order()
-        {
-            Products = new List<Product>();
-        }
+        
     }
 }

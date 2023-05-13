@@ -106,20 +106,6 @@ namespace Sunnah_Station.Controllers
             }
         }
 
-        [HttpGet]
-        [Route("api/orders/{id}/products")]
-        public HttpResponseMessage OrderedProducts(int id)
-        {
-            try
-            {
-                var data = OrderService.GetwithProducts(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
-            }
-        }
 
     }
 }

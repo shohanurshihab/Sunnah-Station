@@ -66,6 +66,34 @@
     <Compile Include="Migrations\202305030749009_ModifiedUser.designer.cs">
       <DependentUpon>202305030749009_ModifiedUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305131843020_keycorr.cs" />
+    <Compile Include="Migrations\202305131843020_keycorr.designer.cs">
+      <DependentUpon>202305131843020_keycorr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305131853107_keycorr1.cs" />
+    <Compile Include="Migrations\202305131853107_keycorr1.designer.cs">
+      <DependentUpon>202305131853107_keycorr1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305131901131_keycorr3.cs" />
+    <Compile Include="Migrations\202305131901131_keycorr3.designer.cs">
+      <DependentUpon>202305131901131_keycorr3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305131904517_keycorr4.cs" />
+    <Compile Include="Migrations\202305131904517_keycorr4.designer.cs">
+      <DependentUpon>202305131904517_keycorr4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305131905587_keycorr5.cs" />
+    <Compile Include="Migrations\202305131905587_keycorr5.designer.cs">
+      <DependentUpon>202305131905587_keycorr5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305131908558_keycorr6.cs" />
+    <Compile Include="Migrations\202305131908558_keycorr6.designer.cs">
+      <DependentUpon>202305131908558_keycorr6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305131919442_keycorr7.cs" />
+    <Compile Include="Migrations\202305131919442_keycorr7.designer.cs">
+      <DependentUpon>202305131919442_keycorr7.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Order.cs" />
@@ -92,6 +120,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305030749009_ModifiedUser.resx">
       <DependentUpon>202305030749009_ModifiedUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305131843020_keycorr.resx">
+      <DependentUpon>202305131843020_keycorr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305131853107_keycorr1.resx">
+      <DependentUpon>202305131853107_keycorr1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305131901131_keycorr3.resx">
+      <DependentUpon>202305131901131_keycorr3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305131904517_keycorr4.resx">
+      <DependentUpon>202305131904517_keycorr4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305131905587_keycorr5.resx">
+      <DependentUpon>202305131905587_keycorr5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305131908558_keycorr6.resx">
+      <DependentUpon>202305131908558_keycorr6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305131919442_keycorr7.resx">
+      <DependentUpon>202305131919442_keycorr7.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
