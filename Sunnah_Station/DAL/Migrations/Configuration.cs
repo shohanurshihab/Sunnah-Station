@@ -13,7 +13,7 @@
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(DAL.DataContext context)
+       /* protected override void Seed(DAL.DataContext context)
         {
             //  This method will be called after migrating to the latest version.
 
@@ -100,6 +100,6 @@
             //muntasir
 
             //riti
-        }
+        }*/
     }
 }

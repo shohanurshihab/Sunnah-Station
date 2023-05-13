@@ -28,7 +28,7 @@ namespace DAL.Models
         public string Image { get; set; }
 
      
-        public Category Category { get; set; }
+        public virtual Category Category { get; set; }
 
         public virtual ICollection<Order> Orders { get; set;}
 

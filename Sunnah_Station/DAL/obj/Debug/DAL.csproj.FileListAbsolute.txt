@@ -54,3 +54,5 @@ E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr4.reso
 E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr5.resources
 E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr6.resources
 E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr7.resources
+E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.tkon.resources
+E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.tkon1.resources

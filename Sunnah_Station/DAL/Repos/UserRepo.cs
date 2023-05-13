@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class UserRepo : Repo, IUser<User, int, User>
+    internal class UserRepo : Repo, IUser<User, int, User>,IAuth<bool>
     {
         public User Create(User obj)
         {
@@ -55,6 +55,13 @@ namespace DAL.Repos
             db.Users.Remove(ex);
 
             return db.SaveChanges() > 0;
+        }
+
+        public bool Authenticate(string email, string password)
+        {
+            var data = db.Users.FirstOrDefault(u => u.Email.Equals(email) && u.Password.Equals(password));
+            if(data == null) return false;
+            return true;
         }
     }
 }

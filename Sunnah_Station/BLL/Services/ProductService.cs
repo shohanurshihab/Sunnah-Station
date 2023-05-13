@@ -68,7 +68,8 @@ namespace BLL.Services
             var data = DataAccessFactory.ProductData().Read(id);
             var cfg = new MapperConfiguration(c => {
                 c.CreateMap<Product, ProductOrdersDTO>(); 
-                c.CreateMap<Order, OrderDTO >();
+                c.CreateMap<Order, OrderDTO>();
+                c.CreateMap<Category, CategoryDTO>();
             });
             var mapper = new Mapper(cfg);
             var mapped = mapper.Map<ProductOrdersDTO>(data);

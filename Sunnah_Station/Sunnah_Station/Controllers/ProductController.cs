@@ -1,5 +1,6 @@
 ﻿using BLL.DTOs;
 using BLL.Services;
+using Sunnah_Station.Auth;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -11,7 +12,8 @@ using System.Web.Http;
 namespace Sunnah_Station.Controllers
 {
     public class ProductController : ApiController
-    {
+    {   
+        [Logged]
         [HttpGet]
         [Route("api/products")]
         public HttpResponseMessage Products()

@@ -9,8 +9,9 @@ namespace BLL.DTOs
     public class ProductOrdersDTO:ProductDTO
     {
         public List<OrderDTO> Orders { get; set; }
+        public CategoryDTO Category { get; set; }
         public ProductOrdersDTO() { 
         Orders = new List<OrderDTO>();
-        }
+        } 
     }
 }
