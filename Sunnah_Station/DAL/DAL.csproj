@@ -103,20 +103,32 @@
     <Compile Include="Migrations\202305132208258_tkon1.designer.cs">
       <DependentUpon>202305132208258_tkon1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305142329386_initDB.cs" />
+    <Compile Include="Migrations\202305142329386_initDB.designer.cs">
+      <DependentUpon>202305142329386_initDB.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Delivery.cs" />
     <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderItem.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\CustomerService.cs" />
     <Compile Include="Models\Token.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Models\Wishlist.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataContext.cs" />
     <Compile Include="Repos\CategoryRepo.cs" />
+    <Compile Include="Repos\CustomerServiceRepo.cs" />
+    <Compile Include="Repos\DeliveryRepo.cs" />
+    <Compile Include="Repos\OrderItemRepo.cs" />
     <Compile Include="Repos\OrderRepo.cs" />
     <Compile Include="Repos\ProductRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="Repos\TokenRepo.cs" />
     <Compile Include="Repos\UserRepo.cs" />
+    <Compile Include="Repos\WishlistRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -158,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305132208258_tkon1.resx">
       <DependentUpon>202305132208258_tkon1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305142329386_initDB.resx">
+      <DependentUpon>202305142329386_initDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

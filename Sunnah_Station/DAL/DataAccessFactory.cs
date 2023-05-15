@@ -28,6 +28,25 @@ namespace DAL
         {
             return new UserRepo();
         }
+        public static IRepo<CustomerService, int, CustomerService> CustomerServiceData()
+        {
+            return new CustomerServiceRepo();
+        }
+
+        public static IRepo<OrderItem, int, OrderItem> OrderItemData()
+        {
+            return new OrderItemRepo();
+        }
+        public static IRepo<Wishlist, int, Wishlist> WishlistData()
+        {
+            return new WishlistRepo();
+        }
+
+        public static IRepo<Delivery, int, Delivery> DeliveryData()
+        {
+            return new DeliveryRepo();
+        }
+
         public static IAuth<bool> AuthData()
         {
             return new UserRepo();

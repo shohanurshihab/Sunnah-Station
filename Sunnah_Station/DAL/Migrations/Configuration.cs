@@ -13,8 +13,8 @@
             AutomaticMigrationsEnabled = false;
         }
 
-       /* protected override void Seed(DAL.DataContext context)
-        {
+         protected override void Seed(DAL.DataContext context)
+         /*{
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
@@ -25,7 +25,7 @@
             //shihab
             for (int i = 1; i <= 10; i++)
             {
-               
+
                 Random rnd = new Random();
                 int randomNumber = rnd.Next(100000000, 999999999);
                 int randomNumber0 = rnd.Next(1000000, 4999999);
@@ -91,15 +91,37 @@
                     CustomerId = cusId,
                     ProductId = pid,
                     Status = status,
-                   
+
                 });
             }
+
+
+
+
+            for (int i = 1; i <= 10; i++)
+         {
+                Random rnd = new Random();
+                int ordId = rnd.Next(1, 10);
+               Random rnd1 = new Random();
+               string randomString = "";
+
+                context.Deliveries.AddOrUpdate(new Delivery
+                {
+                    Id = i,
+                    OrderId = ordId,
+                    TrackingNo = rnd1.Next(1, 100),
+                    Carrier = "Carrier " + randomString + i,
+                    DeliveryDate = new DateTime(1980, 1, 1),
+
+
+                });
+            }*/
 
             //azraf
 
             //muntasir
 
             //riti
-        }*/
+        }
     }
 }

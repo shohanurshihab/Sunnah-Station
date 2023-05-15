@@ -24,3 +24,17 @@ E:\ADNT\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.csproj.CoreCompileInputs
 E:\ADNT\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.csproj.CopyComplete
 E:\ADNT\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.dll
 E:\ADNT\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.pdb
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\bin\Debug\BLL.dll
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\bin\Debug\BLL.pdb
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\bin\Debug\AutoMapper.dll
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\bin\Debug\DAL.dll
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\bin\Debug\EntityFramework.dll
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\bin\Debug\DAL.pdb
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\bin\Debug\DAL.dll.config
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\bin\Debug\AutoMapper.xml
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\bin\Debug\EntityFramework.xml
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.dll
+D:\ADV_DOT_NET\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.pdb

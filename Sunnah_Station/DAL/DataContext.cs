@@ -15,5 +15,9 @@ namespace DAL
         public DbSet<Category> Categories { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Token> Tokens { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<CustomerService> CustomerServices { get; set; }
+        public DbSet<Delivery> Deliveries { get; set; }
+        public DbSet<Wishlist> Wishlists { get; set; }
     }
 }
