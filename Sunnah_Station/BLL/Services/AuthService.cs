@@ -14,7 +14,7 @@ namespace BLL.Services
     {
         public static TokenDTO Authenticate(string email, string password)
         {
-             var res= DataAccessFactory.AuthData().Authenticate(email, password);
+            var res= DataAccessFactory.AuthData().Authenticate(email, password);
             if(res)
             {
                 var token = new Token();

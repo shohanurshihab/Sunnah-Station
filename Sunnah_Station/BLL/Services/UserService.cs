@@ -32,6 +32,13 @@ namespace BLL.Services
             return Convert(data);
         }
 
+        public static UserDTO Get(string email)
+        {
+            var data = DataAccessFactory.UserData().ReadAuthUser(email);
+
+            return Convert(data);
+        }
+
         public static UserDTO GetByEmail(string email)
         {
             var data = DataAccessFactory.UserData().GetByEmail(email);

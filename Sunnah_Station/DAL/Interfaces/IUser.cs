@@ -9,5 +9,7 @@ namespace DAL.Interfaces
     public interface IUser<Type, ID, RET> : IRepo<Type, ID, RET>
     {
         RET GetByEmail(string ID);
+
+        RET ReadAuthUser(string email);
     }
 }

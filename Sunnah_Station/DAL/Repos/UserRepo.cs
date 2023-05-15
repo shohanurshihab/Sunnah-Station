@@ -30,6 +30,11 @@ namespace DAL.Repos
             return db.Users.Find(id);
         }
 
+        public User ReadAuthUser(string email)
+        {
+            return db.Users.FirstOrDefault(u => u.Email.Equals(email));
+        }
+
         public User GetByEmail(string email)
         {
             var userExists = (from user in db.Users where user.Email.Equals(email) select user).SingleOrDefault();

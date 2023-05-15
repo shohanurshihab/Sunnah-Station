@@ -1,6 +1,7 @@
 ﻿using BCrypt.Net;
 using BLL.DTOs;
 using BLL.Services;
+using Sunnah_Station.Auth;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.Core.Common.EntitySql;
@@ -86,36 +87,34 @@ namespace Sunnah_Station.Controllers
             }
         }
 
-        //[HttpGet]
-        //[Route("api/users")]
-        //public HttpResponseMessage Users()
-        //{
-        //    try
-        //    {
-        //        var data = UserService.Get();
+        [Logged]
+        [HttpGet]
+        [Route("api/user")]
+        public HttpResponseMessage AuthUser(string email)
+        {
+            try
+            {
+                var data = UserService.Get(email);
 
-        //        return Request.CreateResponse(HttpStatusCode.OK, data);
-        //    } catch (Exception ex)
-        //    {
-        //        return Request.CreateResponse(HttpStatusCode.InternalServerError, new { ex });
-        //    }
-        //}
+                var responseData = new
+                {
+                    data.Id,
+                    data.Name,
+                    data.Email,
+                    data.Address,
+                    data.Phone,
+                    data.Dob,
+                    Type = GetUserType(data.Type),
+                    data.Image
+                };
 
-        //[HttpGet]
-        //[Route("api/users/{id}")]
-        //public HttpResponseMessage Users(int id)
-        //{
-        //    try
-        //    {
-        //        var data = UserService.Get(id);
-
-        //        return Request.CreateResponse(HttpStatusCode.OK, data);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return Request.CreateResponse(HttpStatusCode.InternalServerError, new { ex });
-        //    }
-        //}
+                return Request.CreateResponse(HttpStatusCode.OK, responseData);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { ex });
+            }
+        }
 
         public string GetUserType(BLL.DTOs.Type type)
         {

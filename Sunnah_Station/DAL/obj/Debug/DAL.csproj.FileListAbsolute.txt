@@ -56,3 +56,14 @@ E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr6.reso
 E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr7.resources
 E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.tkon.resources
 E:\ADNT\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.tkon1.resources
+D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.order.resources
+D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.ModifiedUser.resources
+D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr.resources
+D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr1.resources
+D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr3.resources
+D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr4.resources
+D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr5.resources
+D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr6.resources
+D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.keycorr7.resources
+D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.tkon.resources
+D:\Projects\Sunnah-Station\Sunnah_Station\DAL\obj\Debug\DAL.Migrations.tkon1.resources

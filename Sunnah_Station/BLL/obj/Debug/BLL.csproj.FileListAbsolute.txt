@@ -24,3 +24,5 @@ E:\ADNT\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.csproj.CoreCompileInputs
 E:\ADNT\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.csproj.CopyComplete
 E:\ADNT\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.dll
 E:\ADNT\Sunnah-Station\Sunnah_Station\BLL\obj\Debug\BLL.pdb
+D:\Projects\Sunnah-Station\Sunnah_Station\BLL\bin\Debug\AutoMapper.dll
+D:\Projects\Sunnah-Station\Sunnah_Station\BLL\bin\Debug\AutoMapper.xml
